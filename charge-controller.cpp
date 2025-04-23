@@ -66,3 +66,4 @@ float readShuntCurrent() {
   float current = voltageDrop / shuntResistance;
 
   return abs(current);  // Always positive
+}
